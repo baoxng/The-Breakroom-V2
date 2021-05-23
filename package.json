@@ -24,8 +24,7 @@
     "url": "https://github.com/baoxng/The-Breakroom/issues"
   },
   "homepage": "https://github.com/baoxng/The-Breakroom#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "html-webpack-plugin": "^5.3.1"
   }
