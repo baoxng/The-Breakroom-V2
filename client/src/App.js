@@ -14,6 +14,13 @@ import history from "./utils/history";
 // styles
 import "./App.css";
 
+//Our imports to the components
+import GameDashboard from './views/GameDashboard';
+import GameOne from "./views/GameOne";
+import GameTwo from "./views/GameTwo";
+import GameThree from "./views/GameThree";
+import GameFour from "./views/GameFour";
+import GameFive from "./views/GameFive";
 // fontawesome
 import initFontAwesome from "./utils/initFontAwesome";
 initFontAwesome();
@@ -38,6 +45,12 @@ const App = () => {
             <Route path="/" exact component={Home} />
             <Route path="/profile" component={Profile} />
             <Route path="/external-api" component={ExternalApi} />
+            <Route exact path="/gamedashboard" component={GameDashboard} />
+            <Route exact path="/amoebaonline" component={GameOne}/>
+            <Route exact path="/narrowescape" component={GameTwo} />
+            <Route exact path="/tapslime" component={GameThree} />
+            <Route exact path="/fruitmachine" component={GameFour} />
+            <Route exact path="/spacedash" component={GameFive} />
           </Switch>
         </Container>
         <Footer />
