@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'reactstrap';
 import './App.css';
 
-const GameRow = () => {
+const YellowRow = () => {
   return (
     <>
       <Container className="yellow-container" fluid={true}>
@@ -11,4 +11,4 @@ const GameRow = () => {
   );
 }
 
-export default GameRow;
+export default YellowRow;

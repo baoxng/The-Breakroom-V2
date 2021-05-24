@@ -2,13 +2,13 @@ import React from 'react';
 import { Container } from 'reactstrap';
 import './App.css';
 
-const GameRow = () => {
+const TealRow = () => {
   return (
     <>
-      <Container className="yellow-container" fluid={true}>
+      <Container className="teal-container" fluid={true}>
       </Container>
     </>
   );
 }
 
-export default GameRow;
+export default TealRow;
