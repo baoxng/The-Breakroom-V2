@@ -4,7 +4,7 @@ import { Container } from "reactstrap";
 
 import Loading from "./components/Loading";
 import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import TimerApp from "./components/Timer/App";
 import Home from "./views/Home";
 import Profile from "./views/Profile";

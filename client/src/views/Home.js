@@ -1,15 +1,17 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import { Row, Container } from "../components/Grid";
 import ButtonRow from "../components/ButtonRow/";
-import GameRow from "../components/GameRow/";
+import YellowRow from "../components/RowYellow";
+import TealRow from "../components/RowTeal";
 
 
 const Home = () => (
   <Container fluid>
     <Row>
       <ButtonRow />
-      <GameRow />
+      <YellowRow />
+      <TealRow />
     </Row>
   </Container>
 );
