@@ -21,6 +21,7 @@ import GameTwo from "./views/GameTwo";
 import GameThree from "./views/GameThree";
 import GameFour from "./views/GameFour";
 import GameFive from "./views/GameFive";
+
 // fontawesome
 import initFontAwesome from "./utils/initFontAwesome";
 initFontAwesome();

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import { Row, Container } from "../components/Grid";
 import TimerApp from "../components/Timer/App";
-//timer app and grid component is not included in here yet.
+// import App from "../components/Chat/App";
 
 const Home = () => (
   <Container fluid>
