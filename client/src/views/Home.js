@@ -1,15 +1,13 @@
 import React, { Fragment } from "react";
 
 import { Row, Container } from "../components/Grid";
-import TimerApp from "../components/Timer/App";
-// import App from "../components/Chat/App";
+import ButtonRow from "../components/ButtonRow/";
+
 
 const Home = () => (
   <Container fluid>
     <Row>
-      <p>
-      <TimerApp />
-      </p>
+      <ButtonRow />
     </Row>
   </Container>
 );
