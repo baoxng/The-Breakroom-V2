@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import { Row, Container } from "../components/Grid";
 import ButtonRow from "../components/ButtonRow/";
