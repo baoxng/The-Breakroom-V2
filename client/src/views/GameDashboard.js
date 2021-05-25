@@ -11,10 +11,14 @@ const GameDashboard = () => {
                      <Media src="https://i.ibb.co/Km7qc0R/amoeba-online.jpg" alt="Amoeba Online"/>
                 </Link>
                 <br></br>
+                <h1>Fruit Machine</h1>
+                <Link to="/fruitmachine">
+                     <Media src="https://i.ibb.co/gVZHGtX/fruit-machine.png" alt="Fruit Machine"/>
+                </Link>
+                <br></br>
             <Row>
                 <Link to="/narrowescape">Narrow Escape</Link>
                 <Link to="/tapslime">Tap Slime</Link>
-                <Link to="/fruitmachine">Fruit Machine</Link>
                 <Link to="/spacedash">Space Dash</Link>
             </Row>
         </Container >
