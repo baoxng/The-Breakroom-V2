@@ -1,0 +1,28 @@
+.login-btn {
+  background-color:#02b391;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top:10px;
+  padding-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.nav-bar {
+  height: 400px;
+  background: url('https://user-images.githubusercontent.com/74841110/119576652-c6934000-bd7e-11eb-91a2-b92b0f0a6d26.png') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#nav-font {
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}

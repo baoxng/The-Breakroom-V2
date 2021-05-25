@@ -24,10 +24,6 @@ const CountDownTimer = ({hoursMinSecs}) => {
             setTime([hrs, mins, secs - 1]);
         }
     };
-
-
-    // const reset = () => setTime([parseInt(hours), parseInt(minutes), parseInt(seconds)]);
-
     
     React.useEffect(() => {
         const timerId = setInterval(() => tick(), 1000);
@@ -37,9 +33,8 @@ const CountDownTimer = ({hoursMinSecs}) => {
     
     return (
         <div>
-            <p>{`${hrs.toString().padStart(2, '0')}:${mins
-            .toString()
-            .padStart(2, '0')}:${secs.toString().padStart(2, '0')}`}</p> 
+            <p>{`${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`}</p> 
+            <h2>..Until it's time to get back to work!</h2>
         </div>
     );
 }

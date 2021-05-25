@@ -1,3 +1,19 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  /* background-color:#1c262f; */
+  background: url('https://user-images.githubusercontent.com/74841110/119556903-2aa90a80-bd65-11eb-9394-c5633a0da99c.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+div#root {
+  height: 100vh;
+}
+
 .next-steps .fa-link {
   margin-right: 5px;
 }

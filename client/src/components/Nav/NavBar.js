@@ -7,7 +7,7 @@ import {
   Container,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
+  // NavbarBrand, - this was for the logo icon
   Nav,
   NavItem,
   NavLink,
@@ -19,6 +19,7 @@ import {
 } from "reactstrap";
 
 import { useAuth0 } from "@auth0/auth0-react";
+import "./style.css";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,45 +38,46 @@ const NavBar = () => {
 
   return (
     <div className="nav-container">
-      <Navbar color="light" light expand="md">
+      <Navbar className="nav-bar" expand="md">
         <Container>
-          <NavbarBrand className="logo" />
+          {/* <NavbarBrand className="logo" /> */}
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
                 <NavLink
+                  id="nav-font"
                   tag={RouterNavLink}
                   to="/"
                   exact
-                  activeClassName="router-link-exact-active"
+                  // activeClassName="router-link-exact-active"
                 >
-                  Home
+                  HOME
                 </NavLink>
               </NavItem>
               {isAuthenticated && (
                 <NavItem>
                   <NavLink
+                    id="nav-font"
                     tag={RouterNavLink}
                     to="/gamedashboard"
                     exact
                     activeClassName="router-link-exact-active"
                   >
-                    Game Dashboard
+                    GAMES
                   </NavLink>
                 </NavItem>
               )}
             </Nav>
-            <Nav className="d-none d-md-block" navbar>
+            <Nav className="d-md-block" navbar>
               {!isAuthenticated && (
                 <NavItem>
                   <Button
                     id="qsLoginBtn"
-                    color="primary"
-                    className="btn-margin"
+                    className="login-btn"
                     onClick={() => loginWithRedirect()}
                   >
-                    Log in
+                    LOGIN TO PLAY
                   </Button>
                 </NavItem>
               )}
