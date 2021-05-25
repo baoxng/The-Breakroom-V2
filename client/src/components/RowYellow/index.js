@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Row, Jumbotron} from 'reactstrap';
+import { Container, Col, Row } from 'reactstrap';
 import './App.css';
 
 const YellowRow = () => {

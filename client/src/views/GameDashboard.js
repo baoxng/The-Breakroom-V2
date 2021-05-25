@@ -1,28 +1,24 @@
 import React from "react";
 import { Row, Container } from "../components/Grid";
-
-// import GameSpacedash from "../components/Game5";
-// import Jumbotron from "../components/Jumbotron";
-// import Nav from "../components/Nav";
 import { Link } from "react-router-dom";
+import { Media } from 'reactstrap';
 
 const GameDashboard = () => {
     return (
         <Container fluid>
+                <h1>Amoeba Online</h1>
+                <Link to="/amoebaonline">
+                     <Media src="https://i.ibb.co/Km7qc0R/amoeba-online.jpg" alt="Amoeba Online"/>
+                </Link>
+                <br></br>
             <Row>
-            </Row>
-            <Row>
-                {/* <GameSpacedash /> */}
-                
-                <Link to="/amoebaonline">Amoeba Online</Link>
                 <Link to="/narrowescape">Narrow Escape</Link>
                 <Link to="/tapslime">Tap Slime</Link>
                 <Link to="/fruitmachine">Fruit Machine</Link>
                 <Link to="/spacedash">Space Dash</Link>
             </Row>
-        </Container>
+        </Container >
     );
 };
-
 
 export default GameDashboard;

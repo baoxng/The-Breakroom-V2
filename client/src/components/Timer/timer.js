@@ -26,7 +26,7 @@ const CountDownTimer = ({hoursMinSecs}) => {
     };
 
 
-    const reset = () => setTime([parseInt(hours), parseInt(minutes), parseInt(seconds)]);
+    // const reset = () => setTime([parseInt(hours), parseInt(minutes), parseInt(seconds)]);
 
     
     React.useEffect(() => {
