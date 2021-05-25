@@ -1,15 +1,21 @@
 import React from 'react'
+import {useAuth0} from '@auth0/auth0-react'
 
 const CountDownTimer = ({hoursMinSecs}) => {
    
     const { hours = 0, minutes = 0, seconds = 60 } = hoursMinSecs;
     const [[hrs, mins, secs], setTime] = React.useState([hours, minutes, seconds]);
-    
+    const {logout} = useAuth0();
+    const logoutWithRedirect = () =>
+    logout({
+        returnTo: window.location.origin,
+    });
 
     const tick = () => {
    
         if (hrs === 0 && mins === 0 && secs === 0) 
-            reset()
+            logoutWithRedirect()
+            // reset()
         else if (mins === 0 && secs === 0) {
             setTime([hrs - 1, 59, 59]);
         } else if (secs === 0) {

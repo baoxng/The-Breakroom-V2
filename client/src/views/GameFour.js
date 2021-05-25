@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import GameFruitmachine from "../components/Game4";
-import TimerApp from "../components/Timer/App";
 
 const GameFour = () => {
     return (
@@ -11,7 +10,6 @@ const GameFour = () => {
                     <GameFruitmachine />
                 </Col>
                 <Col size="md-4">
-                    <TimerApp />
                     <div className="gameDesc">
                         <div className="gameDescBorder">
                             <h3>Pixel Slots Fruit Machine</h3>

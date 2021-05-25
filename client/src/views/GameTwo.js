@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import GameEscape from "../components/Game2";
-import TimerApp from "../components/Timer/App";
 
 const GameTwo = () => {
     return (
@@ -11,7 +10,6 @@ const GameTwo = () => {
                     <GameEscape />
                 </Col>
                 <Col size="md-4">
-                    <TimerApp />
                     <div className="gameDesc">
                         <div className="gameDescBorder">
                             <h3>Narrow Escape</h3>

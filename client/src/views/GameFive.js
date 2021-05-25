@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import GameSpacedash from "../components/Game5";
-import TimerApp from "../components/Timer/App";
 
 const GameFive = () => {
     return (
@@ -11,7 +10,6 @@ const GameFive = () => {
                     <GameSpacedash />
                 </Col>
                 <Col size="md-4">
-                    <TimerApp />
                     <div className="gameDesc">
                         <div className="gameDescBorder">
                             <h3>Space Dash</h3>

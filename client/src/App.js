@@ -5,6 +5,7 @@ import { Container } from "reactstrap";
 import Loading from "./components/Loading";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer/Footer";
+import TimerApp from "./components/Timer/App";
 import Home from "./views/Home";
 import Profile from "./views/Profile";
 import ExternalApi from "./views/ExternalApi";
@@ -41,6 +42,7 @@ const App = () => {
     <Router history={history}>
       <div id="app" className="d-flex flex-column h-100">
         <NavBar />
+        <TimerApp />
         <Container className="flex-grow-1 mt-5">
           <Switch>
             <Route path="/" exact component={Home} />
