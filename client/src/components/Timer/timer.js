@@ -34,7 +34,7 @@ const CountDownTimer = ({hoursMinSecs}) => {
     return (
         <div>
             <p>{`${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`}</p> 
-            <h2>..until it's time to get back to work!</h2>
+            <h2>..Until it's time to get back to work!</h2>
         </div>
     );
 }
