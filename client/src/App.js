@@ -3,7 +3,7 @@ import { Router, Route, Switch } from "react-router-dom";
 import { Container } from "reactstrap";
 
 import Loading from "./components/Loading";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Nav/NavBar";
 import Footer from "./components/Footer/Footer";
 import TimerApp from "./components/Timer/App";
 import Home from "./views/Home";

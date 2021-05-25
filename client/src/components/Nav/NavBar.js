@@ -19,6 +19,7 @@ import {
 } from "reactstrap";
 
 import { useAuth0 } from "@auth0/auth0-react";
+import "./style.css";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,7 +51,7 @@ const NavBar = () => {
                   exact
                   activeClassName="router-link-exact-active"
                 >
-                  Home
+                  HOME
                 </NavLink>
               </NavItem>
               {isAuthenticated && (
@@ -61,7 +62,7 @@ const NavBar = () => {
                     exact
                     activeClassName="router-link-exact-active"
                   >
-                    Game Dashboard
+                    GAMES
                   </NavLink>
                 </NavItem>
               )}
@@ -71,11 +72,10 @@ const NavBar = () => {
                 <NavItem>
                   <Button
                     id="qsLoginBtn"
-                    color="primary"
-                    className="btn-margin"
+                    className="profile-btn"
                     onClick={() => loginWithRedirect()}
                   >
-                    Log in
+                    LOGIN TO PLAY
                   </Button>
                 </NavItem>
               )}
