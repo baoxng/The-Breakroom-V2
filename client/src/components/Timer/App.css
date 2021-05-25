@@ -1,7 +1,15 @@
-.timer-app {
+#timer-app {
   text-align: center;
-  font-size: 45px;
+  font-size: 65px;
+  color: white;
+}
 
+.timer-container {
+  background-color: #00866c;
+  opacity: 85%;
+  padding-bottom: 1%;
+  padding-top: 0.5%;
+  resize: stretch;
 }
 
 

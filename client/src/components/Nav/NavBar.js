@@ -58,6 +58,7 @@ const NavBar = () => {
               {isAuthenticated && (
                 <NavItem>
                   <NavLink
+                    id="nav-font"
                     tag={RouterNavLink}
                     to="/gamedashboard"
                     exact
