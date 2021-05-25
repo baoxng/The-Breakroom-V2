@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import GameSpacedash from "../components/Game5";
+// import ChatApp from '../components/Chat/ChatApp'
 
 const GameFive = () => {
     return (
@@ -26,6 +27,7 @@ const GameFive = () => {
                     </div>
                 </Col>
             </Row>
+            {/* <ChatApp/> */}
         </Container>
     );
 };

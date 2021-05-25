@@ -27,6 +27,7 @@ import GameFive from "./views/GameFive";
 import initFontAwesome from "./utils/initFontAwesome";
 initFontAwesome();
 
+
 const App = () => {
   const { isLoading, error } = useAuth0();
 
