@@ -1,7 +1,7 @@
 .login-btn {
   background-color:#02b391;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top:10px;
   padding-bottom: 8px;
   font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +12,7 @@
 
 .nav-bar {
   height: 400px;
-  background: url('https://user-images.githubusercontent.com/74841110/119556903-2aa90a80-bd65-11eb-9394-c5633a0da99c.jpg') no-repeat center;
+  background: url('https://user-images.githubusercontent.com/74841110/119561273-9477e300-bd6a-11eb-84ba-b63606a3b035.png') no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

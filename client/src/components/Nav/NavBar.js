@@ -43,7 +43,7 @@ const NavBar = () => {
           {/* <NavbarBrand className="logo" /> */}
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="mr-auto" navbar>
               <NavItem>
                 <NavLink
                   id="nav-font"
