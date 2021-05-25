@@ -7,7 +7,7 @@ import {
   Container,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
+  // NavbarBrand, - this was for the logo icon
   Nav,
   NavItem,
   NavLink,
@@ -38,18 +38,19 @@ const NavBar = () => {
 
   return (
     <div className="nav-container">
-      <Navbar color="light" light expand="md">
+      <Navbar className="nav-bar" expand="md">
         <Container>
-          <NavbarBrand className="logo" />
+          {/* <NavbarBrand className="logo" /> */}
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
+            <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink
+                  id="nav-font"
                   tag={RouterNavLink}
                   to="/"
                   exact
-                  activeClassName="router-link-exact-active"
+                  // activeClassName="router-link-exact-active"
                 >
                   HOME
                 </NavLink>
@@ -67,12 +68,12 @@ const NavBar = () => {
                 </NavItem>
               )}
             </Nav>
-            <Nav className="d-none d-md-block" navbar>
+            <Nav className="d-md-block" navbar>
               {!isAuthenticated && (
                 <NavItem>
                   <Button
                     id="qsLoginBtn"
-                    className="profile-btn"
+                    className="login-btn"
                     onClick={() => loginWithRedirect()}
                   >
                     LOGIN TO PLAY

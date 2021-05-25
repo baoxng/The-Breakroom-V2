@@ -1,11 +1,28 @@
-.profile-btn {
+.login-btn {
   background-color:#02b391;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top:10px;
   padding-bottom: 8px;
   font-family: Arial, Helvetica, sans-serif;
-  font-style: bolder;
-  font-size: medium;
-  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.nav-bar {
+  height: 400px;
+  background: url('https://user-images.githubusercontent.com/74841110/119556903-2aa90a80-bd65-11eb-9394-c5633a0da99c.jpg') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#nav-font {
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
 }
