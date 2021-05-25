@@ -7,10 +7,10 @@ const TealRow = () => {
     <>
       <Container className="teal-container" fluid={true}>
       <Row>
-        <Col xs="9">
+        <Col xs="8">
           image here
         </Col>
-        <Col xs="3">
+        <Col xs="4">
         <h1>Narrow Escape</h1>
           <p>Let's Play >></p>
         </Col>
