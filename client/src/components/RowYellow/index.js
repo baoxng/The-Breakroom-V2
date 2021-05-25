@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Col, Row } from 'reactstrap';
+import { Container, Col, Row, Media } from 'reactstrap';
+import { Link } from "react-router-dom";
 import './App.css';
 
 const YellowRow = () => {

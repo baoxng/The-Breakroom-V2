@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Col, Row } from 'reactstrap';
+import { Container, Col, Row, Media } from 'reactstrap';
+import { Link } from "react-router-dom";
 import './App.css';
 
 const TealRow = () => {
@@ -8,10 +9,12 @@ const TealRow = () => {
       <Container className="teal-container" fluid={true}>
       <Row>
         <Col xs="8">
-          image here
+          <Link to="/fruitmachine">
+            <Media src="https://i.ibb.co/gVZHGtX/fruit-machine.png" alt="Fruit Machine"/>
+          </Link>
         </Col>
         <Col xs="4">
-        <h1>Narrow Escape</h1>
+        <h1>Fruit Machine</h1>
           <p>Let's Play >></p>
         </Col>
       </Row>
