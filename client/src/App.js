@@ -17,11 +17,11 @@ import "./App.css";
 
 //Our imports to the components
 import GameDashboard from './views/GameDashboard';
-import GameOne from "./views/GameOne";
-import GameTwo from "./views/GameTwo";
-import GameThree from "./views/GameThree";
-import GameFour from "./views/GameFour";
-import GameFive from "./views/GameFive";
+import GameroomAmoeba from "./views/GameAmoeba";
+import GameroomNarrowescape from "./views/GameNarrowescape";
+import GameroomDvoika from "./views/GameDvoika";
+import GameroomFruitmachine from "./views/GameFruitmachine";
+import GameroomSpacedash from "./views/GameSpacedash";
 
 // fontawesome
 import initFontAwesome from "./utils/initFontAwesome";
@@ -50,11 +50,11 @@ const App = () => {
             <Route path="/profile" component={Profile} />
             <Route path="/external-api" component={ExternalApi} />
             <Route exact path="/gamedashboard" component={GameDashboard} />
-            <Route exact path="/amoebaonline" component={GameOne}/>
-            <Route exact path="/narrowescape" component={GameTwo} />
-            <Route exact path="/tapslime" component={GameThree} />
-            <Route exact path="/fruitmachine" component={GameFour} />
-            <Route exact path="/spacedash" component={GameFive} />
+            <Route exact path="/amoebaonline" component={GameroomAmoeba}/>
+            <Route exact path="/narrowescape" component={GameroomNarrowescape} />
+            <Route exact path="/dvoika" component={GameroomDvoika} />
+            <Route exact path="/fruitmachine" component={GameroomFruitmachine} />
+            <Route exact path="/spacedash" component={GameroomSpacedash} />
           </Switch>
         </Container>
         <Footer />

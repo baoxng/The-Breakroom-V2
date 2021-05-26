@@ -1,6 +1,6 @@
 import React from "react";
 
-class Game extends React.Component {
+class GameAmoeba extends React.Component {
   
     render() {
       return (
@@ -13,4 +13,4 @@ class Game extends React.Component {
     }
 }
   
-export default Game;
+export default GameAmoeba;
