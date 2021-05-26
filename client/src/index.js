@@ -27,7 +27,7 @@ const providerConfig = {
 };
 
 ReactDOM.render(
-  <Auth0Provider>
+  <Auth0Provider {...providerConfig}>
     <App />
   </Auth0Provider>,
   document.getElementById("root")
