@@ -6,8 +6,8 @@ import Loading from "../components/Loading";
 import { useAuth0, withAuthenticationRequired } from "@auth0/auth0-react";
 
 export const ProfileComponent = () => {
-  const { user, isAuthenticated, getAccessTokenSilently } = useAuth0();
-  const [userMetadata, setUserMetadata] = useState(null);
+  const { user, isAuthenticated } = useAuth0();
+  // const [userMetadata, setUserMetadata] = useState(null);
 
   return (
     isAuthenticated&&(
