@@ -12,5 +12,4 @@ const GameFour = () => {
     );
 };
 
-
 export default GameFour;
