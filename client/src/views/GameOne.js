@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Container } from "../components/Grid";
-import InfoAmoeba from "../components/Game1";
+import InfoAmoeba from "../components/InfoAmoeba";
 
 const GameOne = () => {
     return (
