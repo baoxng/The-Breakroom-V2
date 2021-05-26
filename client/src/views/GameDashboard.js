@@ -26,8 +26,8 @@ const GameDashboard = () => {
                      <Media src="https://i.ibb.co/cLFck5H/narrow-escape.png" alt="Narrow Escape"/>
                 </Link>
                 <br></br>
-                <h1>Tap Slime</h1>
-                <Link to="/tapslime">
+                <h1>Dvoika</h1>
+                <Link to="/dvoika">
                      <Media src="https://i.ibb.co/3fzfTHR/tap-slime.png" alt="Tap Slime"/>
                 </Link>
                 <br></br>

@@ -52,7 +52,7 @@ const App = () => {
             <Route exact path="/gamedashboard" component={GameDashboard} />
             <Route exact path="/amoebaonline" component={GameOne}/>
             <Route exact path="/narrowescape" component={GameTwo} />
-            <Route exact path="/tapslime" component={GameThree} />
+            <Route exact path="/dvoika" component={GameThree} />
             <Route exact path="/fruitmachine" component={GameFour} />
             <Route exact path="/spacedash" component={GameFive} />
           </Switch>
