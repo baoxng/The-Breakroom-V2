@@ -7,7 +7,6 @@ import {
   Container,
   Navbar,
   NavbarToggler,
-  // NavbarBrand, - this was for the logo icon
   Nav,
   NavItem,
   NavLink,
@@ -40,7 +39,6 @@ const NavBar = () => {
     <div className="nav-container">
       <Navbar className="nav-bar" expand="md">
         <Container>
-          {/* <NavbarBrand className="logo" /> */}
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
@@ -50,7 +48,6 @@ const NavBar = () => {
                   tag={RouterNavLink}
                   to="/"
                   exact
-                  // activeClassName="router-link-exact-active"
                 >
                   HOME
                 </NavLink>
