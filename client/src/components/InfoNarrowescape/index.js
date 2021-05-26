@@ -3,7 +3,7 @@ import { Container, Col, Row } from 'reactstrap';
 import GameFruitmachine from '../Game4';
 import './App.css';
 
-const InfoFruitmachine = () => {
+const InfoNarrowescape = () => {
   return (
     <>
       <Container className="dark-container" fluid={true}>
@@ -37,4 +37,4 @@ const InfoFruitmachine = () => {
   );
 }
 
-export default InfoFruitmachine;
+export default InfoNarrowescape;
