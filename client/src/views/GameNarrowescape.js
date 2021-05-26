@@ -1,15 +1,17 @@
 import React from "react";
 import { Row, Container } from "../components/Grid";
-import InfoAmoeba from "../components/InfoAmoeba";
+import InfoNarrowescape from "../components/InfoNarrowescape";
 
-const GameOne = () => {
+
+const GameroomNarrowescape = () => {
     return (
         <Container fluid>
             <Row>
-                <InfoAmoeba />
+                <InfoNarrowescape />
             </Row>
         </Container>
     );
 };
 
-export default GameOne;
+
+export default GameroomNarrowescape;

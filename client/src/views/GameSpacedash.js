@@ -3,7 +3,7 @@ import { Row, Container } from "../components/Grid";
 import InfoSpacedash from "../components/InfoSpacedash";
 // import ChatApp from '../components/Chat/ChatApp'
 
-const GameFive = () => {
+const GameroomSpacedash = () => {
     return (
         <Container fluid>
             <Row>
@@ -16,4 +16,4 @@ const GameFive = () => {
     );
 };
 
-export default GameFive;
+export default GameroomSpacedash;

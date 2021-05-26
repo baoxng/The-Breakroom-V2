@@ -3,7 +3,7 @@ import { Container, Col, Row } from 'reactstrap';
 import GameAmoeba from '../GameAmoeba';
 import './App.css';
 
-const InfoAmoeba = () => {
+const DashboardGames = () => {
   return (
     <>
       <Container className="dark-container" fluid={true}>
@@ -38,4 +38,4 @@ const InfoAmoeba = () => {
   );
 }
 
-export default InfoAmoeba;
+export default DashboardGames;
