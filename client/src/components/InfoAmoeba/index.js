@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
-import GameAmoeba from '../Game1';
+import GameAmoeba from '../GameAmoeba';
 import './App.css';
 
 const InfoAmoeba = () => {

@@ -1,15 +1,15 @@
 import React from "react";
 import { Row, Container } from "../components/Grid";
-import InfoFruitmachine from "../components/InfoFruitmachine";
+import InfoAmoeba from "../components/InfoAmoeba";
 
-const GameFour = () => {
+const GameroomAmoeba = () => {
     return (
         <Container fluid>
             <Row>
-                <InfoFruitmachine />
+                <InfoAmoeba />
             </Row>
         </Container>
     );
 };
 
-export default GameFour;
+export default GameroomAmoeba;

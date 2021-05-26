@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
-import GameEscape from '../Game2';
+import GameEscape from '../GameNarrowescape';
 import './App.css';
 
 const InfoNarrowescape = () => {

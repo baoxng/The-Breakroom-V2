@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Container } from "../components/Grid";
 import InfoDvoika from "../components/InfoDvoika";
 
-const GameThree = () => {
+const GameroomDvoika = () => {
     return (
         <Container fluid>
             <Row>
@@ -12,4 +12,4 @@ const GameThree = () => {
     );
 };
 
-export default GameThree;
+export default GameroomDvoika;
