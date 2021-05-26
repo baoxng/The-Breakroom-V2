@@ -18,6 +18,7 @@ const onRedirectCallback = (appState) => {
 const config = getConfig();
 
 const providerConfig = {
+  
   domain: config.domain,
   clientId: config.clientId,
   ...(config.audience ? { audience: config.audience } : null),
@@ -26,7 +27,7 @@ const providerConfig = {
 };
 
 ReactDOM.render(
-  <Auth0Provider {...providerConfig}>
+  <Auth0Provider>
     <App />
   </Auth0Provider>,
   document.getElementById("root")
