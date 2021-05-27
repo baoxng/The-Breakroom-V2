@@ -4,15 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd client && npm run start",
-    "seed": "node scripts/seedDB.js",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -30,7 +22,12 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "stream-chat": "^3.10.0",
-    "stream-chat-react": "^6.0.2"
+    "stream-chat-react": "^6.0.2",
+    "express-session": "^1.17.2",
+    "express-sessions": "^1.0.6",
+    "getstream": "^7.2.9",
+    "mongoose": "^4.13.21",
+    "connect-mongodb-session": "^2.4.1"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.3.1"
