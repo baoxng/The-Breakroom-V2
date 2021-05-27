@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import GameDvoika from '../GameDvoika';
 import './App.css';
+import Chat from '../Chat/ChatApp';
 import { useAuth0 } from "@auth0/auth0-react";
 
 const InfoDvoika = () => {
