@@ -37,7 +37,7 @@ const NavBar = () => {
 
   return (
     <div className="nav-container">
-      <Navbar className="nav-bar" expand="md">
+      <Navbar className="nav-bar navbar-dark" expand="md">
         <Container>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
