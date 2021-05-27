@@ -7,9 +7,9 @@ const cors = require("cors");
 // const bodyParser = require("body-parser");
 const stream= require('getstream');
 
-const mongoose = require("mongoose");
-const MongoDBStore= require('connect-mongodb-session')(session);
-const routes = require("./routes");
+// const mongoose = require("mongoose");
+// const MongoDBStore= require('connect-mongodb-session')(session);
+// const routes = require("./routes");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -35,7 +35,7 @@ app.use(cors());
 
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
 
 // Start the API server
 app.listen(PORT, function() {
