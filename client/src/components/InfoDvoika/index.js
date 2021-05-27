@@ -2,8 +2,10 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import GameDvoika from '../GameDvoika';
 import './App.css';
+import { useAuth0 } from "@auth0/auth0-react";
 
 const InfoDvoika = () => {
+  const {isAuthenticated} = useAuth0();
   return (
     <>
       <Container className="dark-container" fluid={true}>
@@ -33,6 +35,9 @@ const InfoDvoika = () => {
         <p>Taken from <a href="https://play.idevgames.co.uk/game/dvoika">this site</a> and created by <a href="https://play.idevgames.co.uk/profile/vankizzle">vankizzle</a>.</p>
         </Col>
       </Row>
+      {isAuthenticated && (
+        <Chat/>
+              )}
       </Container>
     </>
   );
