@@ -2,8 +2,11 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import GameAmoeba from '../GameAmoeba';
 import './App.css';
+import Chat from '../Chat/ChatApp';
+import { useAuth0 } from "@auth0/auth0-react";
 
 const InfoAmoeba = () => {
+  const {isAuthenticated} = useAuth0();
   return (
     <>
       <Container className="dark-container" fluid={true}>
@@ -33,6 +36,9 @@ const InfoAmoeba = () => {
         <p>Taken from <a href="https://play.idevgames.co.uk/game/amoeba-online">this site</a> and created by <a href="https://play.idevgames.co.uk/profile/iDev">iDev</a>.</p>
         </Col>
       </Row>
+      {isAuthenticated && (
+        <Chat/>
+              )}
       </Container>
     </>
   );

@@ -2,8 +2,10 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import GameFruitmachine from '../GameFruitmachine';
 import './App.css';
+import { useAuth0 } from "@auth0/auth0-react";
 
 const InfoFruitmachine = () => {
+  const {isAuthenticated} = useAuth0();
   return (
     <>
       <Container className="dark-container" fluid={true}>
@@ -32,6 +34,9 @@ const InfoFruitmachine = () => {
         <p>Taken from <a href="https://play.idevgames.co.uk/game/pixel-slots-fruit-machine">this site</a> and created by <a href="https://play.idevgames.co.uk/profile/iDev">iDev</a>.</p>
         </Col>
       </Row>
+      {isAuthenticated && (
+        <Chat/>
+              )}
       </Container>
     </>
   );

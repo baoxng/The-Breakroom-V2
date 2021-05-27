@@ -2,8 +2,10 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import GameSpacedash from '../GameSpacedash';
 import './App.css';
+import { useAuth0 } from "@auth0/auth0-react";
 
 const InfoSpacedash = () => {
+  const {isAuthenticated} = useAuth0();
   return (
     <>
       <Container className="dark-container" fluid={true}>
@@ -33,6 +35,9 @@ const InfoSpacedash = () => {
         <p>Taken from <a href="https://play.idevgames.co.uk/game/space-dash">this site</a> and created by <a href="https://play.idevgames.co.uk/profile/Kalyani%20Menon">Kalyani Menon</a>.</p>
         </Col>
       </Row>
+      {isAuthenticated && (
+        <Chat/>
+              )}
       </Container>
     </>
   );
