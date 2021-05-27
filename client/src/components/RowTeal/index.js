@@ -10,7 +10,7 @@ const TealRow = () => {
       <Row>
         <Col xs="8">
           <Link to="/fruitmachine">
-            <Media src="https://i.ibb.co/gVZHGtX/fruit-machine.png" alt="Fruit Machine"/>
+            <Media className="img img-fluid" src="https://i.ibb.co/gVZHGtX/fruit-machine.png" alt="Fruit Machine"/>
           </Link>
         </Col>
         <Col xs="4">

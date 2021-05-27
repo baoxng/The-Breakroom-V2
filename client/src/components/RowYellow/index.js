@@ -14,7 +14,7 @@ const YellowRow = () => {
         </Col>
         <Col xs="8">
           <Link to="/spacedash">
-            <Media src="https://i.ibb.co/ph40G5F/space-dash.png" alt="Space Dash"/>
+            <Media className="img img-fluid" src="https://i.ibb.co/ph40G5F/space-dash.png" alt="Space Dash"/>
           </Link>
         </Col>
       </Row>
